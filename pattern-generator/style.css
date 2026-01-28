@@ -1,0 +1,37 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.num {
+    font-size: 20px;
+    color: crimson;
+    border: 3px solid red;
+}
+
+.num::placeholder {
+    color: pink;
+}
+
+.screen {
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.generate {
+    padding: 3px 6px;
+    font-size: 16px;
+    background-color: crimson;
+    border-radius: 0 15px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    border: 3px solid brown;
+    transition: 0.5s ease-in-out;
+}
+
+.generate:hover {
+    transform: translate(15px);
+}
